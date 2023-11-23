@@ -1,0 +1,19 @@
+h1 {
+    color: fuchsia;
+}
+button {
+    width: 100px;
+    background-color: beige;
+    color: chocolate;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid chocolate;
+    &:hover {
+        background-color: chocolate;
+        color: beige;
+    }
+    & + button {
+        margin-left: 8px;
+    }
+}
